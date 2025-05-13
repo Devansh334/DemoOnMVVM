@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		EE52BC3F2D23DAB3008F97BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE52BC202D23DAAA008F97BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE52BC272D23DAAA008F97BD;
+			remoteInfo = DemoOnMVVM;
+		};
+		EE52BC492D23DAB3008F97BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE52BC202D23DAAA008F97BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE52BC272D23DAAA008F97BD;
+			remoteInfo = DemoOnMVVM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE52BC282D23DAAA008F97BD /* DemoOnMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoOnMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE52BC3E2D23DAB3008F97BD /* DemoOnMVVMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoOnMVVMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE52BC482D23DAB3008F97BD /* DemoOnMVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoOnMVVMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		EE52BC502D23DAB3008F97BD /* Exceptions for "DemoOnMVVM" folder in "DemoOnMVVM" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = EE52BC272D23DAAA008F97BD /* DemoOnMVVM */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		EE52BC2A2D23DAAA008F97BD /* DemoOnMVVM */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				EE52BC502D23DAB3008F97BD /* Exceptions for "DemoOnMVVM" folder in "DemoOnMVVM" target */,
+			);
+			path = DemoOnMVVM;
+			sourceTree = "<group>";
+		};
+		EE52BC412D23DAB3008F97BD /* DemoOnMVVMTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DemoOnMVVMTests;
+			sourceTree = "<group>";
+		};
+		EE52BC4B2D23DAB3008F97BD /* DemoOnMVVMUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DemoOnMVVMUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE52BC252D23DAAA008F97BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE52BC3B2D23DAB3008F97BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE52BC452D23DAB3008F97BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE52BC1F2D23DAAA008F97BD = {
+			isa = PBXGroup;
+			children = (
+				EE52BC2A2D23DAAA008F97BD /* DemoOnMVVM */,
+				EE52BC412D23DAB3008F97BD /* DemoOnMVVMTests */,
+				EE52BC4B2D23DAB3008F97BD /* DemoOnMVVMUITests */,
+				EE52BC292D23DAAA008F97BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE52BC292D23DAAA008F97BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE52BC282D23DAAA008F97BD /* DemoOnMVVM.app */,
+				EE52BC3E2D23DAB3008F97BD /* DemoOnMVVMTests.xctest */,
+				EE52BC482D23DAB3008F97BD /* DemoOnMVVMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE52BC272D23DAAA008F97BD /* DemoOnMVVM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE52BC512D23DAB3008F97BD /* Build configuration list for PBXNativeTarget "DemoOnMVVM" */;
+			buildPhases = (
+				EE52BC242D23DAAA008F97BD /* Sources */,
+				EE52BC252D23DAAA008F97BD /* Frameworks */,
+				EE52BC262D23DAAA008F97BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				EE52BC2A2D23DAAA008F97BD /* DemoOnMVVM */,
+			);
+			name = DemoOnMVVM;
+			packageProductDependencies = (
+			);
+			productName = DemoOnMVVM;
+			productReference = EE52BC282D23DAAA008F97BD /* DemoOnMVVM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE52BC3D2D23DAB3008F97BD /* DemoOnMVVMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE52BC562D23DAB3008F97BD /* Build configuration list for PBXNativeTarget "DemoOnMVVMTests" */;
+			buildPhases = (
+				EE52BC3A2D23DAB3008F97BD /* Sources */,
+				EE52BC3B2D23DAB3008F97BD /* Frameworks */,
+				EE52BC3C2D23DAB3008F97BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE52BC402D23DAB3008F97BD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EE52BC412D23DAB3008F97BD /* DemoOnMVVMTests */,
+			);
+			name = DemoOnMVVMTests;
+			packageProductDependencies = (
+			);
+			productName = DemoOnMVVMTests;
+			productReference = EE52BC3E2D23DAB3008F97BD /* DemoOnMVVMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE52BC472D23DAB3008F97BD /* DemoOnMVVMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE52BC592D23DAB3008F97BD /* Build configuration list for PBXNativeTarget "DemoOnMVVMUITests" */;
+			buildPhases = (
+				EE52BC442D23DAB3008F97BD /* Sources */,
+				EE52BC452D23DAB3008F97BD /* Frameworks */,
+				EE52BC462D23DAB3008F97BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE52BC4A2D23DAB3008F97BD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EE52BC4B2D23DAB3008F97BD /* DemoOnMVVMUITests */,
+			);
+			name = DemoOnMVVMUITests;
+			packageProductDependencies = (
+			);
+			productName = DemoOnMVVMUITests;
+			productReference = EE52BC482D23DAB3008F97BD /* DemoOnMVVMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE52BC202D23DAAA008F97BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					EE52BC272D23DAAA008F97BD = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					EE52BC3D2D23DAB3008F97BD = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = EE52BC272D23DAAA008F97BD;
+					};
+					EE52BC472D23DAB3008F97BD = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = EE52BC272D23DAAA008F97BD;
+					};
+				};
+			};
+			buildConfigurationList = EE52BC232D23DAAA008F97BD /* Build configuration list for PBXProject "DemoOnMVVM" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				hi,
+			);
+			mainGroup = EE52BC1F2D23DAAA008F97BD;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EE52BC292D23DAAA008F97BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE52BC272D23DAAA008F97BD /* DemoOnMVVM */,
+				EE52BC3D2D23DAB3008F97BD /* DemoOnMVVMTests */,
+				EE52BC472D23DAB3008F97BD /* DemoOnMVVMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE52BC262D23DAAA008F97BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE52BC3C2D23DAB3008F97BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE52BC462D23DAB3008F97BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE52BC242D23DAAA008F97BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE52BC3A2D23DAB3008F97BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE52BC442D23DAB3008F97BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE52BC402D23DAB3008F97BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE52BC272D23DAAA008F97BD /* DemoOnMVVM */;
+			targetProxy = EE52BC3F2D23DAB3008F97BD /* PBXContainerItemProxy */;
+		};
+		EE52BC4A2D23DAB3008F97BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE52BC272D23DAAA008F97BD /* DemoOnMVVM */;
+			targetProxy = EE52BC492D23DAB3008F97BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EE52BC522D23DAB3008F97BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DemoOnMVVM/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myCompany.mvvmDemo.DemoOnMVVM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE52BC532D23DAB3008F97BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DemoOnMVVM/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myCompany.mvvmDemo.DemoOnMVVM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE52BC542D23DAB3008F97BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE52BC552D23DAB3008F97BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE52BC572D23DAB3008F97BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myCompany.mvvmDemo.DemoOnMVVMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoOnMVVM.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DemoOnMVVM";
+			};
+			name = Debug;
+		};
+		EE52BC582D23DAB3008F97BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myCompany.mvvmDemo.DemoOnMVVMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoOnMVVM.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DemoOnMVVM";
+			};
+			name = Release;
+		};
+		EE52BC5A2D23DAB3008F97BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myCompany.mvvmDemo.DemoOnMVVMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DemoOnMVVM;
+			};
+			name = Debug;
+		};
+		EE52BC5B2D23DAB3008F97BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myCompany.mvvmDemo.DemoOnMVVMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DemoOnMVVM;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE52BC232D23DAAA008F97BD /* Build configuration list for PBXProject "DemoOnMVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE52BC542D23DAB3008F97BD /* Debug */,
+				EE52BC552D23DAB3008F97BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE52BC512D23DAB3008F97BD /* Build configuration list for PBXNativeTarget "DemoOnMVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE52BC522D23DAB3008F97BD /* Debug */,
+				EE52BC532D23DAB3008F97BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE52BC562D23DAB3008F97BD /* Build configuration list for PBXNativeTarget "DemoOnMVVMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE52BC572D23DAB3008F97BD /* Debug */,
+				EE52BC582D23DAB3008F97BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE52BC592D23DAB3008F97BD /* Build configuration list for PBXNativeTarget "DemoOnMVVMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE52BC5A2D23DAB3008F97BD /* Debug */,
+				EE52BC5B2D23DAB3008F97BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE52BC202D23DAAA008F97BD /* Project object */;
+}

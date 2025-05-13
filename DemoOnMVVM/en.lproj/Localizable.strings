@@ -1,0 +1,47 @@
+/*
+ Localizable.strings
+ DemoOnMVVM
+ */
+
+
+// MARK: - Login Screen
+
+"🚀 User Sign In !" = "🚀 User Sign In !";
+" Sign in using your account credentials to unlock the benefits of the 🏠 Home screen.✨ You're just a step away! 🔑 Use your username and password to 🔓 sign in." = "Sign in using your account credentials to unlock the benefits of the 🏠 Home screen.✨ You're just a step away! 🔑 Use your username and password to 🔓 sign in.";
+"* User-Email :" = "* User-Email :";
+"Enter your email" = "Enter your email";
+"* Password :" = "* Password :";
+"Enter your password" = "Enter your password";
+"Log In" = "Log In";
+"Sign Up" = "Sign Up";
+
+// MARK: - Sign Up Screen
+
+"✨ User Sign Up !" = "✨ User Sign Up !";
+"Sign Up by creating your account to unlock the 🏠 Home screen.🚀 You're just a few steps away! After creating the account, use your username and password to 🔓 sign in." = "Sign Up by creating your account to unlock the 🏠 Home screen.🚀 You're just a few steps away! After creating the account, use your username and password to 🔓 sign in.";
+"* User-Name :" = "* User-Name :";
+"Enter your Name" = "Enter your Name";
+"* Age :" = "* Age :";
+"Enter your age" = "Enter your age";
+"* Confirm Password :" = "* Confirm Password :";
+"Enter your confirm password" = "Enter your confirm password";
+"Create Account" = "Create Account";
+"Back to Login" = "Back to Login";
+
+// MARK: - Home Screen
+
+"👋 Hey " = "👋 Hey ";
+"Welcome Home! 🎉 You’re all set. Explore and enjoy your journey with us!.You're now signed in! ✅ Enjoy full access to your account and explore all features." = "Welcome Home! 🎉 You’re all set. Explore and enjoy your journey with us!.You're now signed in! ✅ Enjoy full access to your account and explore all features.";
+"User Details" = "User Details";
+"User Name : " = "User Name : ";
+"User Email : " = "User Email : ";
+"User Age : " = "User Age : ";
+"LogOut" = "LogOut";
+
+// MARK: - Alerts
+
+"All Fields are required" = "All Fields are required";
+"Invalid Credentials" = "Invalid Credentials";
+"Invalid Email" = "Invalid Email";
+"Invalid Age" = "Invalid Age";
+"Password and Confirm Password do not match" = "Password and Confirm Password do not match";
