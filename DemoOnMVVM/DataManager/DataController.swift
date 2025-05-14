@@ -20,7 +20,7 @@ class DataController {
     
 }
 
-// MARK: - Create User For Creating a new Account
+// MARK: - Create User 
 
 extension DataController {
     
