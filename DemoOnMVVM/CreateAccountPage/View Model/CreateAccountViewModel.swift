@@ -18,6 +18,7 @@ class CreateAccountViewModel {
     
     weak var delegate : (formValidationHandelProtolcol)?
     
+    
     func createUser(for model: UserModel, completion: @escaping (Bool) -> Void) {
         
         guard let name = model.name, !name.isEmpty,
